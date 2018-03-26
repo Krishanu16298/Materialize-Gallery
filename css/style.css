@@ -1,0 +1,39 @@
+*{
+}
+
+body{
+}
+
+.container1{
+  width:95%;
+  margin:auto;
+}
+.thumb{
+  float:left;
+  height:150px;
+}
+.thumb img{
+  height: 100%;
+  padding:3px;
+  transition: all 0.1s ease-in-out;
+}
+.thumb img:hover{
+  opacity: 0.8;
+}
+
+.modal{
+  max-height: 600px;
+  width: 90%;
+  text-align: center;
+  background: none;
+  box-shadow: none;
+}
+.modal .modimg{
+  height: 460px;
+  padding: 0;
+  margin: auto;
+  box-shadow: 0px 10px 20px 10px rgba(0,0,0,0.8);
+}
+.modal .modimg:hover{
+  opacity: 1;
+}
